@@ -1,0 +1,6 @@
+<variables>
+    <!-- COMMON -->  
+    <variable name="loginId" value="yksezyr" type="1" note="用户帐号">  
+        111</variable>     
+    <variable name="passWord" value="888888abc" type="1" note="用户密码"/>
+</variables> 

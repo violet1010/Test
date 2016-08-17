@@ -1,0 +1,10 @@
+﻿<variables>
+    <variable name="testurl" value="http://172.33.0.96:29955" type="1" note="测试地址"/>
+	<variable name="userName" type="1" value="BO" note="渠道名"/>
+	<variable name="password" type="1" value="9C4876E4C86A6248472BA13A3584E9C8" note="渠道密码"/>
+	<variable name="locationcd" type="1" value="147" note="影院内码"/><variable
+		name="mysqlUrl" value="jdbc:mysql://172.33.0.75:3306/gvdb?autoReconnect=true" note="凤凰佳影数据库地址">
+</variable>
+	<variable name="mysqluser" value="gvdba" note="数据库用户名"></variable>
+	<variable name="mysqlpassword" value="manager" note="数据库密码"></variable>
+</variables> 

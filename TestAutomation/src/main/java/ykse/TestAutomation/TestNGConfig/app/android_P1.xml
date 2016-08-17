@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="app_android#P1">
+  <parameter name = "port" value = "4723"/>
+  <parameter name = "ip" value = "192.168.10.148"/>
+  <parameter name = "udid" value = "31339EBEA39800EC"/>
+  <parameter name = "deviceName" value = "613f015"/> 
+  <parameter name = "platformVersion" value = "4.4.4"/> 
+  <parameter name = "appPath" value = "E:/ykse.apk"/> 
+  <parameter name = "appActivity" value = "com.ykse.ticket.app.ui.activity.WelcomeActivity"/>
+  <parameter name = "appActivity1" value = "com.ykse.ticket.app.ui.activity.MainActivity"/>
+  
+  <test name="Test">
+  	 <groups >  
+            <run >  
+                <include name="P1"/>  
+            </run>  
+        </groups>
+    <classes>
+       <class name="ykse.TestAutomation.App.Android.Test.AndroidTest">
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

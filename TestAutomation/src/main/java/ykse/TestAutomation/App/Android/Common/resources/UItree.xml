@@ -1,0 +1,180 @@
+<UIElements>
+    <!-- 选择城市--> 
+    <UIElement name="button_start_start" value="com.ykse.ticket:id/startNow" type="1" note="开始页面按钮"/>        
+    <UIElement name="button_city_cityList" value="com.ykse.ticket:id/tv_city_name" type="1" note="选择城市按钮"/> 
+    <UIElement name="button_tv_user" value="com.ykse.ticket:id/tv_user" type="1" note="主界面的用户按钮"/> 
+    <UIElement name="button_header_back" value="com.ykse.ticket:id/btn_header_back" type="1" note="返回按钮"/> 
+        <!-- 登出-->    
+    <UIElement name="text_user_login_setting_layout" value="com.ykse.ticket:id/fu_setting_layout" type="1" note="已登陆后的设置按钮"/>
+    <UIElement name="button_user_btn_logout" value="com.ykse.ticket:id/btn_logout" type="1" note="设置中的登出按钮"/>      
+    <UIElement name="button_user_btn_logout_sure" value="com.ykse.ticket:id/psd_right" type="1" note="设置中的登出按钮"/>
+         <!-- 登录-->   
+    <UIElement name="button_user_login" value="com.ykse.ticket:id/fu_user_login_bt" type="1" note="用户界面的登陆按钮"/>         
+    <UIElement name="text_user_login_edit_phone_num" value="com.ykse.ticket:id/edit_phone_num" type="1" note="输入用户手机号码框"/> 
+    <UIElement name="text_user_login_edit_password" value="com.ykse.ticket:id/edit_password" type="1" note="输入密码框"/>  
+    <UIElement name="button_user_login_login" value="com.ykse.ticket:id/btn_login" type="1" note="登陆界面的登陆按钮"/>
+     <!-- 会员卡登录-->   
+    <UIElement name="button_user_login_cardlogin" value="com.ykse.ticket:id/btn_header_right" type="1" note="登陆界面的会员卡登陆按钮"/>
+    <UIElement name="button_user_login_cardlogin_choosecity" value="com.ykse.ticket:id/city_choose_container" type="1" note="登陆界面的会员卡登陆城市选择按钮"/>
+    <UIElement name="button_user_login_cardlogin_choosecinema" value="com.ykse.ticket:id/cinema_choose_container" type="1" note="登陆界面的会员卡登陆影城按钮"/>
+    <UIElement name="button_user_login_cardlogin_choosecinema_cinema" value="com.ykse.ticket:id/tv_name" type="1" note="登陆界面的会员卡登陆影城列表"/>
+    <UIElement name="text_user_login_cardlogin_cardnum" value="com.ykse.ticket:id/edit_card_num" type="1" note="登陆界面的会员卡登陆输入卡号框"/>  
+    <UIElement name="text_user_login_cardlogin_cardpassword" value="com.ykse.ticket:id/edit_password" type="1" note="登陆界面的会员卡登陆输入卡密码框"/>
+    <!-- 用户名登录-->  
+    <UIElement name="button_user_login_userlogin" value="com.ykse.ticket:id/go_login_user_name" type="1" note="登陆界面的使用用户名登录按钮"/>
+    <UIElement name="text_user_login_userlogin_username" value="com.ykse.ticket:id/edit_user_name" type="1" note="使用用户名登录界面用户名输入框"/>
+    <UIElement name="text_user_login_userlogin_password" value="com.ykse.ticket:id/edit_password" type="1" note="使用用户名登录界面密码输入框"/>
+    <UIElement name="button_user_login_userlogin_login" value="com.ykse.ticket:id/btn_login" type="1" note="使用用户名登录界面登录按钮"/> 
+    <UIElement name="text_user_login_userlogin_login_phone_num" value="com.ykse.ticket:id/edit_phone_num" type="1" note="使用用户名登录界面输入手机号码框"/>
+    <UIElement name="button_user_login_userlogin_login_verification" value="com.ykse.ticket:id/btn_obtain_verfication_code" type="1" note="使用用户名登录界面发送验证码按钮"/>
+    <UIElement name="text_user_login_userlogin_login_verification" value="com.ykse.ticket:id/edit_verification_code" type="1" note="使用用户名登录界面验证码输入框"/>
+    <UIElement name="button_user_login_userlogin_login_bing" value="com.ykse.ticket:id/btn_bind" type="1" note="使用用户名登录界面绑定按钮"/>
+     <!-- 注册-->    
+    <UIElement name="button_user_login_cardlogin_login" value="com.ykse.ticket:id/btn_login" type="1" note="登陆界面的会员卡登陆的登录确认按钮"/>
+    <UIElement name="button_user_login_register" value="com.ykse.ticket:id/btn_register" type="1" note="登陆界面的注册按钮"/>
+    <UIElement name="text_user_login_register_phone_num" value="com.ykse.ticket:id/edit_phone_num" type="1" note="注册页面输入手机号码框"/>
+    <UIElement name="button_user_login_register_verification" value="com.ykse.ticket:id/btn_obtain_verfication_code" type="1" note="注册页面发送验证码按钮"/>
+    <UIElement name="text_user_login_register_password" value="com.ykse.ticket:id/edit_password" type="1" note="注册页面输入密码框"/>
+    <UIElement name="text_user_login_register_verification" value="com.ykse.ticket:id/edit_verification_code" type="1" note="注册页面验证码输入框"/>
+    <UIElement name="button_user_login_register_register" value="com.ykse.ticket:id/btn_register" type="1" note="主粗额页面确认按钮"/>
+    <!-- 忘记密码-->  
+    <UIElement name="button_user_login_forgetpassword" value="com.ykse.ticket:id/tx_forget_password" type="1" note="登录页面忘记密码按钮"/>
+    <UIElement name="text_user_login_forgetpassword_phone_num" value="com.ykse.ticket:id/edit_phone_num" type="1" note="忘记密码页面输入用户手机号码框"/>
+    <UIElement name="text_user_login_forgetpassword_password" value="com.ykse.ticket:id/edit_password" type="1" note="忘记密码页面输入密码框"/> 
+    <UIElement name="button_user_login_forgetpassword_verification" value="com.ykse.ticket:id/btn_obtain_verfication_code" type="1" note="忘记密码页面发送验证码按钮"/>
+    <UIElement name="text_user_login_forgetpassword_verification" value="com.ykse.ticket:id/edit_verification_code" type="1" note="忘记密码页面验证码输入框"/>
+    <UIElement name="button_user_login_forgetpassword_forgetpassword" value="com.ykse.ticket:id/btn_register" type="1" note="忘记密码页面确认按钮"/>
+	<UIElement name="button_buy_ticket" value="com.ykse.ticket:id/tv_buy_ticket" type="1" note="影院页购票按钮"/>
+    <UIElement name="lable_cinema_filmname" value="com.ykse.ticket:id/name_title" type="1" note="影片页影院名称"/>
+    <UIElement name="button_back" value="com.ykse.ticket:id/btn_header_left" type="1" note="返回"/>
+    <UIElement name="lable_error_message" value="com.ykse.ticket:id/ifr_error_message" type="1" note="报错信息"/> 
+    <!-- 会员卡-->    
+    <UIElement name="button_card_back" value="com.ykse.ticket:id/ihwrt_bt_back" type="1" note="我的页面中我的会员卡按钮"/>
+    <UIElement name="button_my_card" value="com.ykse.ticket:id/fu_user_member_card_layout" type="1" note="我的页面中我的会员卡按钮"/>
+    <UIElement name="button_my_card_bingcard" value="com.ykse.ticket:id/ihwrt_right_tv" type="1" note="我的会员卡页面绑卡按钮"/>
+    <UIElement name="button_my_card_bingcard_city" value="com.ykse.ticket:id/amcb_location_tv" type="1" note="会员卡绑卡页面城市选择按钮"/>
+    <UIElement name="button_my_card_bingcard_cinema" value="com.ykse.ticket:id/amcb_cinema_tv" type="1" note="会员卡绑卡页面影院选择按钮"/>
+    <UIElement name="button_my_card_bingcard_cinema_cinema" value="com.ykse.ticket:id/ln_name" type="1" note="会员卡绑卡页面影院选择按钮页的城市选择"/>
+    <UIElement name="text_my_card_bingcard_cardnum" value="com.ykse.ticket:id/amcb_member_card_num" type="1" note="会员卡绑卡页面输入卡号框"/>
+    <UIElement name="text_my_card_bingcard_cardpassword" value="com.ykse.ticket:id/amcb_password" type="1" note="会员卡绑卡页面输入卡密码框"/>
+    <UIElement name="text_my_card_bingcard_carduser" value="com.ykse.ticket:id/amcb_name" type="1" note="会员卡绑卡页面输入持卡用户框"/>
+    <UIElement name="text_my_card_bingcard_cardphone" value="com.ykse.ticket:id/amcb_phone" type="1" note="会员卡绑卡页面输入持卡人手机号框"/>
+    <UIElement name="text_my_card_bingcard_idcard" value="com.ykse.ticket:id/amcb_id" type="1" note="会员卡绑卡页面输入持卡人证件号框"/>    
+    <UIElement name="button_my_card_bingcard_bingcard" value="com.ykse.ticket:id/amcb_ensure" type="1" note="会员卡绑卡页面确认绑定按钮"/>
+    <UIElement name="button_my_card_cardnum" value="com.ykse.ticket:id/lmc_member_card_num_tv" type="1" note="会员卡页面会员卡号文字"/>
+	<UIElement name="text_my_card_cardnum_password" value="com.ykse.ticket:id/impl_password" type="1" note="会员卡页面会员卡密码输入框"/>
+    <UIElement name="button_my_card_cardnum_sure" value="com.ykse.ticket:id/impl_ensure" type="1" note="会员卡页面会员卡密码确认按钮"/>
+    <UIElement name="button_my_card_cardinfo_record" value="com.ykse.ticket:id/acmd_recharge_consume_record_layout" type="1" note="会员卡详情页充值消费记录"/>
+    <UIElement name="button_my_card_cardinfo_record_recharge" value="com.ykse.ticket:id/amcr_recharge_bt" type="1" note="会员卡充值消费记录页的充值按钮"/>
+    <UIElement name="button_my_card_cardinfo_record_consumption" value="com.ykse.ticket:id/amcr_consumption_bt" type="1" note="会员卡充值消费记录页的消费按钮"/>
+    <UIElement name="button_my_card_cardinfo_unbing" value="com.ykse.ticket:id/acmd_unbind_layout" type="1" note="会员卡详情页解绑按钮"/>
+    <UIElement name="button_my_card_applyForCard_location" value="com.ykse.ticket:id/mca_location_layout" type="1" note="我的申请页面地区按钮"/>
+    <UIElement name="button_my_card_applyForCard_cinema" value="com.ykse.ticket:id/mca_cinema_layout" type="1" note="我的申请页面影院按钮"/>
+    <UIElement name="button_my_card_applyForCard_type" value="com.ykse.ticket:id/mca_type_layout" type="1" note="我的申请页面卡等级按钮"/>
+    <UIElement name="button_my_card_applyForCard_type_cardName" value="com.ykse.ticket:id/ln_name" type="1" note="我的申请页面卡等级名称"/>
+    <UIElement name="button_my_card_applyForCard_cardPassword" value="com.ykse.ticket:id/mca_pass_etv" type="1" note="我的申请页面密码输入框"/>
+    <UIElement name="button_my_card_applyForCard_ensureCardPassword" value="com.ykse.ticket:id/mca_ensure_pass_etv" type="1" note="我的申请页面确认密码输入框"/>
+    <UIElement name="button_my_card_applyForCard_cardUser" value="com.ykse.ticket:id/mca_name" type="1" note="我的申请页面持卡人输入框"/>
+    <UIElement name="button_my_card_applyForCard_idCard" value="com.ykse.ticket:id/mca_id" type="1" note="我的申请页面身份证输入框"/>
+    <UIElement name="button_my_card_applyForCard_cardPhoneNum" value="com.ykse.ticket:id/mca_phone" type="1" note="我的申请页面手机号输入框"/>
+    <UIElement name="button_my_card_applyForCard_apply" value="com.ykse.ticket:id/mca_ensure" type="1" note="我的申请页面确认申请按钮"/> 
+    <UIElement name="button_my_card_unbing_sureunbing" value="com.ykse.ticket:id/psd_left" type="1" note="确认解绑按钮"/> 
+    <!-- 影片TAB-->
+    <UIElement name="button_film" value="com.ykse.ticket:id/tv_film" type="1" note="影片TAB"/>
+    <UIElement name="button_film_city" value="com.ykse.ticket:id/btn_location" type="1" note="影片TAB页面的城市按钮"/>
+    <UIElement name="button_film_cancle" value="android:id/button2" type="1" note="取消切换城市"/>
+	<UIElement name="button_film_filmToLockSeat" value="com.ykse.ticket.capital:id/layout_schedule_content" type="1" note="影片选影院的快捷入口"/>
+	<UIElement name="button_film_filmToCinema_day" value="com.ykse.ticket:id/layout_schedule_date_item" type="1" note="影片选影院日期按钮"/>
+    <UIElement name="lable_film_beginTime" value="com.ykse.ticket:id/tv_schedule_begin_time" type="1" note="影片开场时间"/>
+    <UIElement name="lable_film_showDate" value="com.ykse.ticket:id/tv_date" type="1" note="影片上映时间"/>
+     <!-- 待映TAB-->
+    
+    <UIElement name="button_film_coming" value="com.ykse.ticket:id/btn_film_coming" type="1" note="影院TAB"/>
+
+    <!-- 影院TAB-->
+    <UIElement name="button_cinema" value="com.ykse.ticket:id/tv_cinema" type="1" note="影院TAB"/>
+    <UIElement name="button_cinema_findCinemaName" value="com.ykse.ticket:id/btn_cinema" type="1" note="影院页影院按钮"/> 
+    <UIElement name="button_cinema_search" value="com.ykse.ticket:id/btn_header_right" type="1" note="影院页查找按钮"/>
+    <UIElement name="text_cinema_inputCinemaName" value="com.ykse.ticket:id/edit_search" tyep="1" note="“输入影院名称”查找输入框"/>
+    <UIElement name="lable_filmList_checkfilmList" value="com.ykse.ticket:id/tv_film_name" type="1" note="影片名称"/>
+    <UIElement name="lable_button_cinema_search_break" value="com.ykse.ticket:id/tv_cancel" type="1" note="搜索影院返回"/>
+    <!-- 排期列表-->    
+    <UIElement name="lable_film_showDate" value="com.ykse.ticket:id/tv_date" type="1" note="影片上映时间"/>
+    <UIElement name="button_film_back" value="com.ykse.ticket:id/btn_header_left" type="1" note="排期列表返回按钮"/>
+    <UIElement name="image_film_filmImage" value="com.ykse.ticket:id/film_gallery_item_image" type="1" note="排期列表影片图片"/>
+    <UIElement name="index_schedule_data" value="com.ykse.ticket:id/layout_schedule_date_item" type="1" note="排期index标签"/>
+    
+    <!-- 影院详情-->
+    <UIElement name="lable_cinemaDetails_cinemaName" value="com.ykse.ticket:id/tv_cinema_name" type="1" note="影片列表的影院名称"/>  
+    <UIElement name="button_cinemaDetails_back" value="com.ykse.ticket:id/btn_header_left" type="1" note="影院详情页返回按钮"/>
+    <UIElement name="button_buyGoodsOnly_cinemaDetails" value="com.ykse.ticket:id/btn_header_right" type="1" note="仅购买卖品按钮"/>
+    <!-- 卖品列表--> 
+    <UIElement name="lable_goodList_goodName" value="com.ykse.ticket:id/apci_good_name" type="1" note="卖品名称"/>
+    <UIElement name="button_goodList_back" value="com.ykse.ticket:id/ihb_bt_back" type="1" note="卖品列表返回按钮"/>
+    <UIElement name="lable_goodList_price" value="com.ykse.ticket:id/acpi_good_price" type="1" note="卖品价格"/>
+    <UIElement name="lable_goodList_selectedNum" value="com.ykse.ticket:id/acpi_good_select_quality_text" type="1" note="卖品选择数目"/>
+    <UIElement name="lable_goodList_buy" value="com.ykse.ticket:id/apl_pos_buy_bt" type="1" note="确认卖品"/>
+    <UIElement name="lable_goodList_selected" value="com.ykse.ticket:id/apl_select_pos_text" type="1" note="卖品数量"/>
+    
+    <!-- 座位图--> 
+    <UIElement name="pic_film_seats_view" value="com.ykse.ticket:id/as_seat_view" type="1" note="座位图"/>
+    <UIElement name="button_seat_warning" value="com.ykse.ticket:id/psd_left" type="1" note="选座页面提示"/>
+    <UIElement name="lable_seat_selected" value="android.widget.TextView" type="1" note="座位图可选标识"/>
+
+    <!-- 确认支付-->
+    <UIElement name="list_confirmOrder_discount" value="com.ykse.ticket:id/aco_select_fav_type_tv" type="1" note="确认订单页优惠方式"/>
+    <UIElement name="lable_discount_price" value="com.ykse.ticket:id/lp_total_price" type="1" note="选择优惠首价格"/>
+    <UIElement name="button_discount_confirm" value="com.ykse.ticket:id/ihttb_right" tyepe="1" note="选择优惠页确认按钮"/>
+    <UIElement name="lable_confirmOrder_ticketPrice" value="com.ykse.ticket:id/aco_ticket_price_tv" type="1" note="确认订单页票价"/>
+    <UIElement name="lable_confirmOrder_totalPrice" value="com.ykse.ticket:id/aco_total_tv" type="1" note="确认订单总价格"/>
+    <UIElement name="button_confirmOrder_ensure" value="com.ykse.ticket:id/aco_ensure_bt" type="1" note="确认订单页立即付款按钮"/>
+    <UIElement name="button_confirmOrder_phoneNumber" value="com.ykse.ticket:id/aco_show_eidt_phone" type="1" note="确认订单页手机输入按钮"/>
+    <UIElement name="button_confirmOrder_confirm" value="com.ykse.ticket:id/aco_ensure_bt" type="1" note="确认订单页立即支付按钮"/>
+    <UIElement name="button_confirmOrder_discount_coupon_add" value="com.ykse.ticket:id/cl_add_vou_button" type="1" note="确认订单页优惠方式中的添加按钮"/>
+    <UIElement name="button_confirmOrder_discount_couponLiset" value="com.ykse.ticket:id/ac_coupon_number" type="1" note="确认订单页优惠方式中的券列表"/>
+    <UIElement name="button_confirmOrder_discount_sure" value="com.ykse.ticket:id/ihttb_right" type="1" note="确认订单页优惠方式中的确认按钮"/>
+    <UIElement name="button_confirmOrder_payType" value="com.ykse.ticket:id/aco_pay_method" type="1" note="确认订单页支付方式"/>
+    <UIElement name="button_confirmOrder_onlyGood_payType" value="com.ykse.ticket:id/acgo_select_pay_layout" type="1" note="单独卖品确认订单页支付方式"/>    
+     <UIElement name="button_confirmOrder_onlyGood_ensure" value="com.ykse.ticket:id/acgo_ensure_bt" type="1" note="单独卖品确认确认支付"/> 
+     <UIElement name="button_order_discount_sure" value="com.ykse.ticket:id/ihttb_right" type="1" note="选择优惠确认按钮"/>         
+     <UIElement name="button_order_coupon" value="com.ykse.ticket:id/aco_vou_pay_layout" type="1" note="选择优惠券按钮"/>         
+
+    <!-- 手机号-->
+    <UIElement name="text_phoneNum_inputPhoneNumber" value="com.ykse.ticket:id/edit_phone_num" type="1" note="手机号输入页手机号输入框"/>
+    <UIElement name="button_phoneNum_finish" value="com.ykse.ticket:id/tx_finish" type="1" note="输入手机号页面完成按钮"/>
+    <!-- 会员卡支付输入密码页 -->
+    <UIElement name="text_cardPay_password" value="com.ykse.ticket:id/impl_card_number" type="1" note="会员卡支付密码输入框"/>
+    <UIElement name="button_cardPay_ensure" value="com.ykse.ticket:id/impl_ensure" type="1" note="会员卡支付确认按钮"/>
+    <!-- 付款成功 -->
+    <UIElement name="button_paySuccess_checkTicket" value="com.ykse.ticket:id/aps_pay_detail_bt" type="1" note="付款成功页查看电影票按钮"/>
+    <UIElement name="button_film_seats_ensureSeat" value="com.ykse.ticket:id/as_seat_ensure_bt" type="1" note="确认选座"/>
+    <!-- 订单--> 
+    
+     <UIElement name="button_order_select_activity" value="com.ykse.ticket:id/lp_activity_name_tv" type="1" note="活动类型"/>
+     <UIElement name="button_order_activity" value="com.ykse.ticket:id/aco_select_fav_layout" type="1" note="活动类型"/>
+     <UIElement name="button_order_discount_cardNum" value="com.ykse.ticket:id/lp_member_card_num" type="1" note="优惠栏中的会员卡号"/>
+     <UIElement name="button_order_payType" value="com.ykse.ticket:id/aco_select_pay_layout" type="1" note="确认订单的支付栏"/>
+         
+     <UIElement name="button_order_ensure" value="com.ykse.ticket:id/aco_ensure_bt" type="1" note="确认订单"/>
+     <UIElement name="text_order_phonenum" value="com.ykse.ticket:id/edit_phone_num" type="1" note="订单用户手机号码框"/>
+     <UIElement name="button_order_eidt_phone" value="com.ykse.ticket:id/aco_show_eidt_phone" type="1" note="订单用户手机号码"/>
+
+     <UIElement name="button_order_eidt_phone_finish" value="com.ykse.ticket:id/tx_finish" type="1" note="完成订单用户手机号码"/>
+     <UIElement name="button_order_num" value="com.ykse.ticket:id/amod_order_num_tv" type="1" note="完成订单号"/>
+          <UIElement name="button_order_buy" value="com.ykse.ticket:id/amod_buy_order_bt" type="1" note="完成订单"/>
+     
+     <!-- 支付 -->>
+     
+     <UIElement name="button_order_card_impl_password" value="com.ykse.ticket:id/impl_password" type="1" note="支付输入会员卡密码"/>    
+      <UIElement name="button_order_card_impl_ensure" value="com.ykse.ticket:id/impl_ensure" type="1" note="支付输入会员卡密码"/>
+           <UIElement name="button_order_card_impl_close" value="com.ykse.ticket:id/pimpl_left" type="1" note="支付输入会员卡密码"/>
+      
+           <UIElement name="text_order_ihwrt" value="com.ykse.ticket:id/ihwrt_tv_name" type="1" note="支付输入会员卡密码"/>
+     <!-- 票券 -->>
+    <UIElement name="button_detail_refun" value="com.ykse.ticket:id/ihwrt_right_tv" type="1" note="退票按钮"/>
+    <UIElement name="button_detail_refun_ensure" value="com.ykse.ticket:id/psd_right" type="1" note="确认退票按钮"/>
+  <!-- xpath -->>
+    <UIElement name="button_goodList_plus" value="android.widget.FrameLayout[2]/android.widget.ExpandableListView[1]/android.widget.LinearLayout[4]" type="1" note="增加卖品"/>
+    <UIElement name="button_goodList_minus" value="—" type="1" note="减少卖品"/>
+
+</UIElements> 

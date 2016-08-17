@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="app_android">
+  <parameter name = "port" value = "4723"/>
+  <parameter name = "ip" value = "192.168.10.148"/>
+  <parameter name = "udid" value = "31339EBEA39800EC"/>
+  <parameter name = "deviceName" value = "613f015"/> 
+  <parameter name = "platformVersion" value = "4.4.4"/> 
+  <parameter name = "appPath" value = "E:/ykse.apk"/> 
+  <parameter name = "appActivity" value = "com.ykse.ticket.app.ui.activity.WelcomeActivity"/>
+  <parameter name = "appActivity1" value = "com.ykse.ticket.app.ui.activity.MainActivity"/>
+  
+  <test name="Test">
+    <classes>
+       <class name="ykse.TestAutomation.App.Android.Test.AndroidTest">
+		  <methods preserve-order="true">
+
+			<include name="TC_start_cityChoose" /> 
+       
+       		
+       		
+           <include name="TC_good_checkGood"/>
+            
+            
+       	
+       	 
+       		<include name="TC_my_card_cardInfo_record"/>    
+       		<include name="TC_order_couponPay" />  
+            <include name="TC_order_addTwoCoupon" />  
+       		<include name="TC_my_card_applyForCard" />
+       		<include name="TC_order_addCoupon" />  
+      		<include name="TC_my_loginByUesr"/>
+    		<include name="TC_my_forgetpassward" /> 
+            <include name="TC_my_register" /> 
+            <include name="TC_my_loginByUesr_notbingphone"/>         
+            <include name="TC_my_loginbycard" /> 
+            <include name="TC_my_login" />                 
+            <include name="TC_film_clickCinemaFromFilm" /> 
+            <include name="TC_filmDetails_filmDetailsToBuy"/>            
+            <include name="TC_film_checkFilmList"/>          
+            <include name="TC_my_mycard_bingcard" />
+            <include name="TC_my_card_cardInfo_unbing"/> 
+            <include name="TC_swich_film"/>
+            <include name="TC_order_chooseGood"/> 
+            <include name="TC_order_payWithCardNoActivityInDetail"/>
+            <include name="TC_order_payWithCardNoActivity"/> 
+            <include name="TC_order_payWithCard"/>       
+            <include name="TC_my_mycard_list"/>
+            <include name="TC_film_cityChoose"/>
+            <include name="TC_cinema_cityChoose"/>              
+            <include name="TC_my_card_cardInfo"/> 
+            <include name="TC_detail_refunTicket" /> 
+    		<include name="TC_choose_onlyBayGood" /> 
+    		<include name="TC_order_onlyBayGood" /> 
+    		<include name="TC_detail_refunTicketGood" />  
+    		<include name="TC_order_noCoupon" />          
+            	<!--
+
+
+            <include name="TC_confirm_order"/>  卖品信息定位问题
+            <include name="TC_click_LockSeatsFromFilm" />   没有断言，需增加
+            
+           
+			
+	
+    		
+            -->
+
+          </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

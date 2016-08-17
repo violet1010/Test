@@ -1,0 +1,19 @@
+<variables>
+    <variable name="sleepBase" value="1" type="1" note="用户手机号"/>
+    <variable name="phoneNum" value="13800138000" type="1" note="用户手机号"/>        
+    <variable name="passWord" value="888888" type="1" note="用户密码"/>
+    <variable name="cityName" value="湛江" type="1" note="城市名"/> 
+    <variable name="channel_code" value="API_APP_ANDROID_TEST" type="1" note="渠道号"/> 
+    <variable name="account_category_code" value="API_OWN" type="1" note="渠道号"/>   
+    <variable name="cinemaName" value="58影院" type="1" note="影院名"/>
+        <variable name="cinemaId" value="58" type="1" note="影院名"/>  
+    <variable name="cardnum_login" value="000003" type="1" note="会员卡登录使用的会员卡，请勿使用改卡进行其他操作"/> 
+    <variable name="cardpassWord" value="112233" type="1" note="会员卡密码"/> 
+    <variable name="phoneNum_register" value="18888888888" type="1" note="注册专用用户手机号，请勿使用改卡进行其他操作"/> 
+    <variable name="cardNum" value="000004" type="1" note="会员卡"/>
+    <variable name="cardUser" value="test" type="1" note="会员卡持卡人姓名"/>
+    <variable name="cardphoneNum" value="13800138000" type="1" note="会员卡持卡人手机"/>
+    <variable name="idCard" value="123456789" type="1" note="会员卡持卡人证件号"/>
+    <variable name="userName" value="test2" type="1" note="用户名登录账号"/>
+    <variable name="cardType" value="电影云A卡" type="1" note="会员卡等级"/>
+</variables> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="interface_v2#P1">
+  <parameter name = "ip" value = "127.0.0.1"/>
+  
+  <test name="Test">
+  	 <groups >  
+            <run >  
+                <include name="P1"/>  
+            </run>  
+        </groups>
+    <classes>
+       <class name="ykse.TestAutomation.Interface.V2.Test.InterfaceV2Test">
+<class name="ykse.TestAutomation.Interface.V2.Test.InterfaceV2Test">
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

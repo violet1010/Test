@@ -1,0 +1,60 @@
+<UIElements>
+	<!-- Id -->
+    <UIElement name="text_login_password" value="FinixxPassword" type="1" note="登陆页面的密码框"/>        
+    <UIElement name="text_login_loginId" value="FinixxUserName" type="1" note="选登陆页面的用户名框"/> 
+    
+    
+    <!-- 用户管理模块 -->
+    <UIElement name="text_user_id" value="Id" type="1" note="用户账号输入框"/> 
+    <UIElement name="text_user_userLname" value="LastName" type="1" note="用户姓氏输入框"/> 
+    <UIElement name="text_user_userFname" value="FirstName" type="1" note="用户名输入框"/>
+    <UIElement name="text_user_userPassword" value="Password" type="1" note="登录密码输入框"/>
+    <UIElement name="text_user_userPasswordConfirm" value="ConfirmPassword" type="1" note="确认密码输入框"/>
+    <UIElement name="text_user_userPassword_new" value="NewPassword" type="1" note="新密码输入框"/>
+    <UIElement name="select_user_role" value="RoleId" type="1" note="用户所属角色选择框"/>
+    <UIElement name="select_user_cinema" value="LocationId" type="1" note="用户所属影院选择框"/>
+    <UIElement name="check_user_disable" value="chk1" type="1" note="是否禁用复选框"/>
+    <UIElement name="check_user_loginflag" value="ConcurrencyFlag" type="1" note="允许前台销售同事登录复选框"/>
+    <UIElement name="text_user_cinema" value="LocationId" type="1" note="设置密码有效期为30天复选框"/>---
+    <UIElement name="check_user_logined" value="LoginFlag" type="1" note="已登录复选框"/>
+    <UIElement name="check_user_passcardflag" value="PassCardFlg" type="1" note="禁用员工卡复选框"/>
+    <UIElement name="select_passcard_type" value="card" type="1" note="卡类型选择框"/>
+    <UIElement name="select_passcard_port" value="ddlPort" type="1" note="端口号选择框"/>
+    <UIElement name="file_uploadUploader" value="file_uploadUploader" type="1" note="导入按钮"/> 
+    <!-- 模块 -->
+    <UIElement name="text_basicSetting_title" value="基础设置" type="1" note="基础设置页面选项"/>
+    <UIElement name="text_UMEGroup_title" value="UME影院组" type="1" note="UME影院组选项"/>
+    <!-- 按钮 -->
+    <UIElement name="text_add" value="btn_add" type="1" note="新增按钮"/>
+    <UIElement name="SureButton" value="btnSure" type="1" note="确认按钮"/>
+    <UIElement name="button_output" value="btn_export" type="1" note="导出按钮"/>
+    <UIElement name="button_import" value="file_uploadUploader" type="1" note="导入按钮"/>
+    
+    <UIElement name="text_user_change" value="修改" type="1" note="用户管理"/>
+    <UIElement name="text_user_password_change" value="修改密码" type="1" note="用户管理修改密码按钮"/>
+    <UIElement name="a_user_passcard" value="绑定员工卡" type="1" note="用户管理绑定员工卡按钮"/>
+    <UIElement name="button_user_passcard_read" value="readCard" type="1" note="读卡按钮"/>
+    <UIElement name="button_user_search" value="btnQuery" type="1" note="查询按钮"/>
+    <UIElement name="a_user_grantlog" value="授权日志" type="1" note="用户管理授权日志按钮"/>
+    
+    
+	<!-- Class -->
+	 <UIElement name="class_Submit_login" value="FinixxSubmit" type="1" note="登录页面的登陆按钮"/>
+     
+
+	<!-- Xpath -->
+	<UIElement name="xpath_submit" value="//button[@type='submit']" type="1" note="提交按钮"/>
+	<UIElement name="xpath_parameter_title" value="//div[@title='参数设置']" type="1" note="参数设置选项"/>
+	<UIElement name="xpath_usermanager_title" value="/html/body/div[5]/div[2]/div[2]/div[4]/div[2]/div[1]/div" type="1" note="用户管理选项"/>
+	<UIElement  name="xpath_add" value="//*[@id='btn_add']" type="1" note="新增按钮"/>
+	<UIElement  name="xpath_frame_userIndex" value="//*[@src='User/Index']" type="1" note="用户管理的frame"/>
+	<UIElement  name="xpath_frame_systemlog" value="//*[@src='SystemLog/Verify']" type="1" note="授权日志的frame"/>
+	
+	<UIElement  name="xpath_frame_userAdd_save" value="//input[@class='ykf2_PopBlueBtn ykf2_PopUpBoxBtn1']" type="1" note="页面保存按钮"/>
+	<UIElement  name="xpath_frame_userAdd_continue" value="//input[@class='ykf2_PopBlueBtn2 ykf2_PopUpBoxBtn1']" type="1" note="页面保存按钮"/>
+	<UIElement  name="xpath_frame_userAdd_continue" value="//input[@class='ykf2_PopGayBtn ykf2_PopUpBoxBtn2']" type="1" note="页面重置按钮"/>
+	<UIElement name="xpath_search_user" value="//input[@name='id']" type="1" note="查询账号输入框"/>
+	<UIElement name="xpath_search_lastname" value="//input[@name='desc']" type="1" note="查询姓氏输入框"/>
+	<UIElement name="xpath_search" value="//button[@id='btnQuery']" type="1" note="查询按钮"/>
+	<UIElement name="xpath_button_search" value="//input[@id='btnQ']" type="1" note="授权页面卡授权查询按钮"/>
+</UIElements> 

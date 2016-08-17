@@ -1,0 +1,50 @@
+<ownApiTestData>
+
+	<variable name="securitySigninApiIsRight" value="ykse.security.signin" type="1" note="入参 api 是正确的"/>
+	<variable name="securitySigninApiIsNotExist" value="yksesecuritysignin" type="1" note="入参 api 是错误的"/>
+	<variable name="securitySigninApiIsEmpty" value="" type="1" note="入参 api 是空的"/>
+	
+	<variable name="securitySigninAccountIsRight" value="19999999998" type="1" note="入参 account 是正确的"/>
+	<variable name="securitySigninAccountIsNotExist" value="19999999999" type="1" note="入参 account 是错误的"/>
+	<variable name="securitySigninAccountIsEmpty" value="" type="1" note="入参 account 是空的"/>
+	
+	<variable name="securitySigninPasswordIsRight" value="19999999998" type="1" note="入参 password 是正确的"/>
+	<variable name="securitySigninPasswordIsNotExist" value="E10ADC3949BA59ABBE56E057F20F883F" type="1" note="入参 password 是错误的"/>
+	<variable name="securitySigninPasswordIsEmpty" value="" type="1" note="入参 password 是空的"/>
+	
+	<variable name="securitySigninTypeIsRight" value="MOBILE" type="1" note="入参 type 是正确的"/>
+	<variable name="securitySigninTypeIsNotExist" value="PHONE" type="1" note="入参 type 是错误的"/>
+	<variable name="securitySigninTypeIsEmpty" value="" type="1" note="入参 type 是空的"/>
+	
+	<variable name="securitySigninDevicePrintIsRight" value="1" type="1" note="入参 devicePrint 是正确的"/>
+	<variable name="securitySigninDevicePrintIsNotExist" value="1111" type="1" note="入参 devicePrint 是错误的"/>
+	<variable name="securitySigninDevicePrintisEmpty" value="" type="1" note="入参 devicePrint 是空的"/>
+	
+	<variable name="securitySigninMobileCountryCodeIsRight" value="0086" type="1" note="入参 mobileCountryCode 是正确的"/>
+	<variable name="securitySigninMobileCountryCodeIsNotExist" value="1186" type="1" note="入参 mobileCountryCode 是错误的"/>
+	<variable name="securitySigninMobileCountryCodeIsEmpty" value="" type="1" note="入参 mobileCountryCode 是空的"/>
+	
+	
+	<variable name="bizCode" value="0" type="1" note="接口通返回bizCode"/>
+	<variable name="account" value="19999999998" type="1" note="手机号码"/>
+	<variable name="password" value="E10ADC3949BA59ABBE56E057F20F883E" type="1" note="密码"/>
+	<variable name="type" value="MOBILE" type="1" note="手机"/>
+	<variable name="devicePrint" value="1" type="1" note="设备id"/>
+	<variable name="mobileCountryCode" value="0086" type="1" note="设备id"/>
+	<variable name="signinNormalBizCode" value="0" type="1" note="接口返回bizCode"/>
+	<variable name="wrongpw" value="E10ADC3949BA59ABBE56E057F20F883F" type="1" note="错误密码"/>
+	<variable name="signinWrongPWBizCode" value="2202" type="1" note="接口返回bizCode"/>
+	<variable name="loginWrongPWBizCode" value="2202" type="1" note="接口返回bizCode"/>
+	
+	<variable name="cityCode" value="440100" type="1" note="城市编码"/>
+	<variable name="posterSizeLargeLarge" value="LARGE" type="1" note="扩展海报尺寸"/>
+	<variable name="posterSizeLargeMiddle" value="MIDDLE" type="1" note="扩展海报尺寸"/>
+	<variable name="posterSizeLargeSmall" value="SMALL" type="1" note="扩展海报尺寸"/>
+	<variable name="getHotFilmsNormalBizCode" value="0" type="1" note="接口返回bizCode"/>
+	
+	<variable name="page" value="1" type="1" note="页码（影片评论）"/>
+	
+	<variable name="content" value="记住！我不是一个英文评论。" type="1" note="影片评论内容"/>
+	<variable name="rate" value="8" type="1" note="影片评分"/>
+	
+</ownApiTestData>

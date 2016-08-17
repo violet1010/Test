@@ -1,0 +1,15 @@
+<UIElements>
+	<!-- Id -->
+    <UIElement name="text_login_password" value="password" type="1" note="登陆页面的密码框"/>        
+    <UIElement name="text_login_loginId" value="loginId" type="1" note="选登陆页面的用户名框"/> 
+    <UIElement name="button_login_login" value="login" type="1" note="登录页面的登陆按钮"/> 
+    <UIElement name="text_basicSetting_title" value="基础设置" type="1" note="基础设置页面选项"/>
+    <UIElement name="text_UMEGroup_title" value="UME影院组" type="1" note="UME影院组选项"/>
+    
+    <UIElement name="button_header_back" value="com.ykse.ticket:id/btn_header_back" type="1" note="返回按钮"/> 
+	<!-- Class -->
+ 	<UIElement name="class_formGroup" value="form-group" type="1" note="列表组"/>
+	<!-- Xpath -->
+	<UIElement name="xpath_cinemaGroupManagement" value="//div[@id='sidebar-scroll']/div/div/ul/li/a/span" type="1" note="影院组管理"/>
+	<UIElement name="xpath_submit" value="//button[@type='submit']" type="1" note="提交按钮"/>
+</UIElements> 

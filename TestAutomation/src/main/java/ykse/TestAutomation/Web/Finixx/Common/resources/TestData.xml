@@ -1,0 +1,28 @@
+<variables>
+    <!-- 登录 -->
+    <variable name="loginId" value="admin" type="1" note="用户帐号"/>        
+    <variable name="passWord" value="888888" type="1" note="用户密码"/>
+    <!-- 新增用户 -->
+    <variable name="userId" value="CM0144ey12" type="1" note="用户账号"/>
+	<variable name="userLname" value="橙" type="1" note="用户姓氏"/>
+	<variable name="userFname" value="名" type="1" note="用户名字"/>
+	<variable name="userrole" value="销售员" type="1" note="用户所属角色"/>
+	<variable name="usercinema" value="新架构测试影城" type="1" note="用户所属影院"/>
+	<variable name="userjoindate" value="2016-04-30" type="1" note="生效日期"/>
+	<variable name="userPassword" value="888888" type="1" note="登录密码"/>
+	<variable name="userPasswordConfirm" value="888888" type="1" note="确认密码"/>
+	<!-- 修改用户 -->
+	<variable name="userLname_C" value="橙C" type="1" note="用户姓氏"/>
+	<variable name="userFname_C" value="名C" type="1" note="用户名字"/>
+	<variable name="userrole_C" value="财务" type="1" note="用户所属角色"/>
+	<variable name="usercinema_C" value="新架构测试影城" type="1" note="用户所属影院"/>
+	<variable name="userjoindate_C" value="2016-05-02" type="1" note="生效日期"/>
+	<!-- 修改密码 -->
+	<variable name="userPassword_new" value="777777" type="1" note="新登录密码"/>
+	<variable name="userPasswordConfirm_new" value="777777" type="1" note="新确认密码"/>
+	<!-- 绑定员工卡 -->
+	<variable name="usercardtype" value="IC卡 德生读卡器" type="1" note="卡类型"/>
+	<variable name="usercardport" value="COM 1" type="1" note="端口号"/>
+	<!-- 导入文件名-->
+	<variable name="需要上传的文件1" value="C:\Users\Administrator\Desktop\123.sec" type="1" note="需要上传的文件"/>
+</variables> 

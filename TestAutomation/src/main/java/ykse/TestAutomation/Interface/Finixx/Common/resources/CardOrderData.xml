@@ -1,0 +1,4 @@
+﻿<variables>
+    <variable name="beginFacadeCD" value="201230098002" type="1" note="开始卡号"/>
+    <variable name="endFacadeCD" value="201230098002" type="1" note="结束卡号"/>
+</variables> 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="interface_Finixx#BVT">
+  <parameter name = "ip" value = "127.0.0.1"/>
+  
+  <test name="Test">
+  	 <groups >  
+            <run >  
+                <include name="P0"/>  
+            </run>  
+        </groups>
+    <classes>
+       <class name="ykse.TestAutomation.Interface.Finixx.Test.InterFaceFinixxTicketTest">
+           </class>
+<class name="ykse.TestAutomation.Interface.Finixx.Test.InterFaceFinixxCardTest">
+    </class>
+           <class name="ykse.TestAutomation.Interface.Finixx.Test.InterFaceFinixxGoodsTest">
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

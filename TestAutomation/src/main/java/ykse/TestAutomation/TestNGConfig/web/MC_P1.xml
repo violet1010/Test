@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="web_mc#P1">
+	<parameter name = "brower" value = "webdriver.firefox.bin"/>
+	<parameter name = "Path" value = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"/>
+	<parameter name = "Url" value = "http://172.33.0.189:8080/"/>
+	<test name="Test" >
+		 <groups >  
+            <run >  
+                <include name="P1"/>  
+            </run>  
+        </groups>
+		<classes>
+			<class name="ykse.TestAutomation.Web.MC.Test.WebMCTest" >
+			
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

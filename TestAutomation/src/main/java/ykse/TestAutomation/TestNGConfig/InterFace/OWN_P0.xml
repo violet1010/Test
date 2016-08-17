@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="interface_own#BVT">
+  <parameter name = "ip" value = "127.0.0.1"/>
+  
+  <test name="Test">
+  	 <groups >  
+            <run >  
+                <include name="P0"/>  
+            </run>  
+        </groups>
+    <classes>
+       <class name="ykse.TestAutomation.Interface.OWN.Test.InterfaceOwnTest">
+
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

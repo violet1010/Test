@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="interface_own">
+  <parameter name = "ip" value = "127.0.0.1"/>
+  
+  <test name="Test">
+    <classes>
+       <class name="ykse.TestAutomation.Interface.OWN.Test.InterfaceOwnTest">
+		  <methods preserve-order="true">
+			<include name="TC_queryCinemas"/>
+			<include name="TC_queryCinemas_twice" /> 
+			
+          </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

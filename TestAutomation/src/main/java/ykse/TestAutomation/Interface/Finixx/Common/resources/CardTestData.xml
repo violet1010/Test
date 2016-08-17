@@ -1,0 +1,110 @@
+﻿<variables>
+    <variable name="cardFacadeCd" value="000000010015" type="1" note="卡面号"/>
+	<variable name="cardLocationCd" type="1" value="59" note="发卡影院内码"/>
+	<variable name="cardSerialNo" type="1" value="32384.9023" note="卡芯片号"/>
+	<variable name="usePolicyId" type="1" value="1" note="使用政策编码"></variable><variable
+		name="cardId" type="1" value="1" note="检测字段">
+</variable>
+	<variable name="ccbFlag" type="1" value="N" note="建行卡标识"></variable>
+	<variable name="icbcFlag" type="1" value="N" note="工行卡标识"></variable>
+	<variable name="facadeCD" type="1" value="000000010015" note="卡号"></variable>
+	<variable name="serialCD" type="1" value="32384.9023" note="卡芯片号"></variable>
+	<variable name="userID" type="1" value="ADMIN" note="售票员ID"></variable>
+	<variable name="userId" type="1" value="ADMIN" note="售票员ID"></variable>
+	<variable name="addMoney" type="1" value="100" note="充值额"></variable>
+	<variable name="sellLocationCD" type="1" value="59" note="发卡影院内码"></variable>
+	<variable name="addLocationCD" type="1" value="59" note="充值影院内码"></variable>
+	<variable name="paymentType" type="1" value="Cash" note="充值付款方式编码"></variable>
+	<variable name="paymentName" type="1" value="现金" note="充值付款方式描述"></variable>
+	<variable name="addModule" type="1" value="YKMEMBER" note="充值模块"></variable>
+	<variable name="discount" type="1" value="" note="卡普通厅折扣"></variable>
+	<variable name="fingerFlag" type="1" value="N" note="指纹充值标识"></variable>
+	<variable name="batchAdd" type="1" value="false" note="批量充值标识"></variable>
+	<variable name="saleSpeed" type="1" value="" note="销售时间"></variable>
+	<variable name="writeShiftFlag" type="1" value="false" note="是否写轮班"></variable>
+	<variable name="beginFacadeCD" type="1" value="201230098131" note="开始卡号"></variable>
+	<variable name="cardGradeId" type="1" value="1" note="等级号"></variable>
+	<variable name="cardUsePolicyId" type="1" value="1" note="使用政策号"></variable>
+	<variable name="showDate" type="1" value="2016-04-20" note="上映日期 "></variable>
+	<variable name="showTime" type="1" value="1815" note="上映时间"></variable>
+	<variable name="filmCd" type="1" value="00110009201601" note="影片编码"></variable>
+	<variable name="cinemaCd" type="1" value="3" note="影厅编码"></variable>
+	<variable name="channelCd" type="1" value="BO" note="系统号"></variable>
+	<variable name="gradeId" type="1" value="1" note="等级政策编码"></variable>
+	<variable name="queryByFacadeCD" type="1" value="false" note="是否只通过卡号查询"></variable>
+	<variable name="noPreInfo" type="1" value="true" note="无预制表信息"></variable>
+	<variable name="queryCenterPolicy" type="1" value="true" note="关联中心政策"></variable>
+	<variable name="preFlag" type="1" value="false" note="取预制订单号标识"></variable>
+	<variable name="cardOrdersByOrderCd" type="1" value="160328001" note="订单号"></variable>
+	<variable name="type" type="1" value="C" note="卡类型"></variable>
+	<variable name="cardFaceFee" type="1" value="00000090009" note="卡面值"></variable>
+	<variable name="consumePolicyID" type="1" value="TPH00001" note="购票积分政策编码"></variable>
+	<variable name="flow" type="1" value="W" note="卡流向"></variable>
+	<variable name="flowDescription" type="1" value="前台" note="流向说明"></variable>
+	<variable name="gradePolicyID" type="1" value="1" note="等级政策编码"></variable>
+	<variable name="specialID" type="1" value="01" note="特殊政策编码"></variable>
+	<variable name="levelForeverFlag" type="1" value="false" note="等级保持1"></variable>
+	<variable name="defaultMarking" type="1" value="5" note="预设积分"></variable>
+	<variable name="meDium" type="1" value="IC" note="卡介质"></variable>
+	<variable name="rePrefabricateFlag" type="1" value="false" note="重预制标识"></variable>
+	<variable name="formCD" type="1" value="20160421" note="订制流水单号"></variable>
+	<variable name="endFacadeCD" type="1" value="201230098132" note="结束卡号"></variable>
+	<variable name="remark" type="1" value="hellow world!" note="备注"></variable>
+	<variable name="totalCount" type="1" value="2" note="合计数量"></variable>
+	<variable name="description" type="1" value="dream" note="描述"></variable>
+	<variable name="jumpNumberFlag" type="1" value="false" note="跳号标识"></variable>
+	<variable name="jumpFinalNumberFlag" type="1" value="false" note="只跳尾数标识"></variable>
+	<variable name="creatUserId" type="1" value="001" note="售票员id"></variable>
+	<variable name="locationCD" type="1" value="59" note="影院内码"></variable>
+	<variable name="menberUserName" type="1" value="徐瑞" note="会员姓名"></variable>
+	<variable name="telphone" type="1" value="18262278873" note="联系电话"></variable>
+	<variable name="documentNO" type="1" value="320721199103240011" note="证件号"></variable>
+	<variable name="reportLossLocationCD" type="1" value="59" note="报失影城内码"></variable>
+	<variable name="sellLocationCD" type="1" value="59" note="发卡影院内码"></variable>
+	<variable name="writeCardFlg" type="1" value="false" note="是否写卡"></variable>
+	<variable name="bookingId" type="1" value="20160422" note="订单号"></variable>
+	<variable name="session_RefSeqNo" type="1" value="RefSeqNo" note="连场"></variable>
+	<variable name="throughFlg" type="1" value="false" note="连场标识"></variable>
+	<variable name="sectionId" type="1" value="" note="场区编码"></variable>
+	<variable name="totalMarking" type="1" value="1" note="消费的总积分"></variable>
+	<variable name="calculateMarkingMoney" type="1" value="1" note="计算积分的金额"></variable>
+	<variable name="calculatePerTicketTimes" type="1" value="5" note="次数卡, 每张票的计票次数"></variable>
+	<variable name="totalDisSeats" type="1" value="5" note="折扣票数(不计算额外折扣票数)"></variable>
+	<variable name="totalSeats" type="1" value="10" note="总票数"></variable>
+	<variable name="totalConsumeMarking" type="1" value="0" note="消费的积分"></variable>
+	<variable name="remarks" type="1" value="test" note="备注"></variable>
+	<variable name="totalAmount" type="1" value="0" note="消费金额"></variable>
+	<variable name="totalConsumeMarking" type="1" value="0" note="消费的积分"></variable>
+	<variable name="cardType" type="1" value="C" note="卡类型"></variable>
+	<variable name="reason" type="1" value="out-time" note="激活原因"></variable>
+	<variable name="balance" type="1" value="25.1" note="余额"></variable>
+	<variable name="memberFee" type="1" value="0" note="会费"></variable>
+	<variable name="salesCD" type="1" value="" note="业务员编码"></variable>
+	<variable name="billNO" type="1" value="" note="业务员单号"></variable>
+	<variable name="invalidationDate" type="1" value="2017-4-22 11:05:46" note="有效期,格式“yyyy-MM-dd HH:mm:ss”"></variable>
+	<variable name="activationType" type="1" value="0" note="激活类型：0：过期激活；1：输错三次密码激活"></variable>
+	<variable name="birthDate" type="1" value="2000-4-22 12:33:34" note="生日,格式“yyyy-MM-dd HH:mm:ss”"></variable>
+	<variable name="memberID" type="1" value="000000010015" note="会员号"></variable>
+	<variable name="specialID" type="1" value="01" note="特殊政策编码"></variable>
+	<variable name="workstation" type="1" value="USER-20160226DV" note="工作站"></variable>
+	<variable name="noCardBatchFlag" type="1" value="false" note="无卡批量发卡标识"></variable>
+	<variable name="groupFlag" type="1" value="N" note="团体卡标识"></variable>
+	<variable name="addMoney" type="1" value="10000" note="充值金额"></variable>
+	<variable name="fee" type="1" value="0" note="工本费"></variable>
+	<variable name="membershipFee" type="1" value="0" note="会费"></variable>
+	<variable name="parValue" type="1" value="0" note="卡面值"></variable>
+	<variable name="photoFlag" type="1" value="false" note="照片标识"></variable>
+	<variable name="writeShiftFlag" type="1" value="false" note="是否写轮班"></variable>
+	<variable name="channelCD" type="1" value="BO" note="发卡渠道 "></variable>
+	<variable name="module" type="1" value="BO" note="调用模块"></variable>
+	<variable name="documentType" type="1" value="身份证" note="证件类型"></variable>
+	<variable name="sex" type="1" value="男" note="性别"></variable>
+	<variable></variable>
+	<variable></variable>
+	<variable></variable>
+	<variable></variable>
+	<variable></variable>
+	<variable></variable>
+	<variable></variable>
+	<variable></variable>
+</variables> 
